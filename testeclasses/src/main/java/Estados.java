@@ -3,13 +3,13 @@ public class Estados {
     // Atributos
     private String regiao;
     private String capital;
-    private String litoral;
+    private String nome;
 
     // Construtor
-    public Estados(String regiao, String capital, String litoral) {
+    public Estados(String regiao, String capital, String nome) {
         this.regiao = regiao;
         this.capital = capital;
-        this.litoral = litoral;
+        this.nome = nome;
     }
 
     // Métodos
@@ -42,11 +42,11 @@ public class Estados {
         this.capital = capital;
     }
 
-    public String getLitoral() {
-        return litoral;
+    public String getNome() {
+        return nome;
     }
 
-    public void setLitoral(String litoral) {
-        this.litoral = litoral;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }

@@ -1,19 +1,19 @@
 public class Classes {
 
     // Atributos
-    private String dano;
+    private String nome;
     private String alcance;
     private String nivel;
 
     // Construtor
-    public Classes(String dano, String alcance, String nivel ) {
-        this.dano = dano;
+    public Classes(String nome, String alcance, String nivel ) {
+        this.nome = nome;
         this.alcance = alcance;
         this.nivel = nivel;
     }
 
     // Métodos
-    public void tipo() {System.out.println("A classe é suporte");
+    public void dano() {System.out.println("O dano da classe é Baixo");
     }
 
     public void vida() {
@@ -24,12 +24,12 @@ public class Classes {
     }
 
     // Getters e Setters
-    public String getDano() {
-        return dano;
+    public String getNome() {
+        return nome;
     }
 
-    public void setDano(String dano) {
-        this.dano = dano;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getAlcance() {
